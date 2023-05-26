@@ -8,7 +8,7 @@ const LandingSection = () => {
     <section id="home" className="landing-section">
       <h1>Hi! I'm Miguel Sablan.</h1>
 
-      <p>A Full-Stack Web Developer</p>
+      <p>A Full-Stack Web Developer From Miami 🌴</p>
 
       <div className="icons-container">
         <a

@@ -1,5 +1,6 @@
 import "./Navbar.css";
 import { useState, useEffect } from "react";
+import { Link } from "react-scroll";
 
 const Navbar = () => {
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -19,19 +20,47 @@ const Navbar = () => {
 
   return (
     <nav className={`navbar ${scrollPosition >= 50 ? "scrolled" : ""}`}>
-      <a id="logo" href="#home">MIGUEL</a>
+      <Link id="logo" to="home" smooth duration={500}>
+        MIGUEL
+      </Link>
       <ul>
         <li className="nav-link">
-          <a href="#home">HOME</a>
+          <Link to="home" smooth spy={true} duration={500} activeClass="active">
+            HOME
+          </Link>
         </li>
         <li className="nav-link">
-          <a href="#about">ABOUT</a>
+          <Link
+            to="about"
+            smooth
+            spy={true}
+            duration={500}
+            activeClass="active"
+          >
+            ABOUT
+          </Link>
         </li>
         <li className="nav-link">
-          <a href="#projects">PROJECTS</a>
+          <Link
+            to="projects"
+            smooth
+            spy={true}
+            duration={500}
+            activeClass="active"
+          >
+            PROJECTS
+          </Link>
         </li>
         <li className="nav-link">
-          <a href="#contact">CONTACT</a>
+          <Link
+            to="contact"
+            smooth
+            spy={true}
+            duration={500}
+            activeClass="active"
+          >
+            CONTACT
+          </Link>
         </li>
       </ul>
     </nav>

@@ -10,12 +10,11 @@
 :root {
   --font-poppins: "Poppins", sans-serif;
   --font-raleway: "Raleway", sans-serif;
-  --color-primary: #1a7bc7;
+  --color-primary: #1cb4ff;
   --color-title: white;
   --color-body-dark: #15191f;
-  --color-body: linear-gradient(to bottom, #222831, var(--color-body-dark));
-
-  /*#1CB5E0   color: #1a7bc7;*/
+  --color-body-light: #3c4653;
+  --color-body: linear-gradient(to bottom, #152232, var(--color-body-dark));
 }
 
 body {
@@ -26,9 +25,10 @@ body {
   overflow-x: hidden;
 }
 
-/*
 ::-webkit-scrollbar {
   width: 10px;
+  background: var(--color-body);
+  display: none;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -36,6 +36,5 @@ body {
   border: 6px solid transparent;
   background-clip: content-box;
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
-  background: rgb(38, 38, 136);
+  background: var(--color-primary);
 }
-*/

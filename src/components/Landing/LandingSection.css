@@ -9,16 +9,25 @@
 
 .landing-section > h1 {
   font-size: 70px;
+  opacity: 0;
+  animation: fadeInUp 1s forwards;
+  animation-delay: 0.3s;
 }
 
 .landing-section > p {
   font-size: 30px;
+  opacity: 0;
+  animation: fadeInUp 1s forwards;
+  animation-delay: 0.6s;
 }
 
 .icons-container {
   display: flex;
   gap: 1.3rem;
   margin: 16px;
+  opacity: 0;
+  animation: fadeInUp 1s forwards;
+  animation-delay: 0.9s;
 }
 
 .icon-container {
@@ -27,5 +36,5 @@
 }
 
 .icon-container:hover {
-  color: var(--color-primary)
+  color: var(--color-primary);
 }

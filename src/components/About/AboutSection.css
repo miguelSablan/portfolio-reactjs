@@ -2,4 +2,5 @@
   height: 100vh;
   text-align: center;
   color: var(--color-title);
+  padding: 6rem 6rem;
 }

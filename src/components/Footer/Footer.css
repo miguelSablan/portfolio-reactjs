@@ -1,7 +1,10 @@
 .footer-section {
   background: #212121 none repeat scroll 0 0;
-  padding: 100px 0;
   position: relative;
   text-align: center;
   color: var(--color-title);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }

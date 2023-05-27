@@ -1,6 +1,24 @@
 .about-section {
-  height: 100vh;
+  height: auto;
   text-align: center;
   color: var(--color-title);
-  padding: 6rem 6rem;
+  padding: 6rem 6rem 0 6rem;
+}
+
+.about-section > h1 {
+  font-size: 36px;
+}
+
+.skill-summary {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.skill-icon {
+  margin: 40px 90px;
+  width: 120px;
+  min-width: 60px;
 }

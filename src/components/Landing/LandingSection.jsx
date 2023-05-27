@@ -2,6 +2,8 @@ import "./LandingSection.css";
 import { FaLinkedinIn } from "react-icons/fa";
 import { AiFillGithub } from "react-icons/ai";
 import { IoMdMail } from "react-icons/io";
+import { FaArrowDown } from "react-icons/fa";
+import { Link } from "react-scroll";
 
 const LandingSection = () => {
   return (
@@ -34,6 +36,12 @@ const LandingSection = () => {
         >
           <IoMdMail size="50px" />
         </a>
+      </div>
+
+      <div className="arrow">
+        <Link to="projects" smooth duration={500} style={{ cursor: "pointer" }}>
+          <FaArrowDown size={"22px"} />
+        </Link>
       </div>
     </section>
   );

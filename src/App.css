@@ -49,3 +49,15 @@ body {
     opacity: 1;
   }
 }
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(-25%);
+    animation-timing-function: cubic-bezier();
+  }
+
+  50% {
+    transform: none;
+    animation-timing-function: cubic-bezier();
+  }
+}

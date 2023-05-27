@@ -3,14 +3,17 @@ import { useState, useEffect } from "react";
 import { Link } from "react-scroll";
 
 const Navbar = () => {
-  const [scrollPosition, setScrollPosition] = useState(0);
-
-  const handleScroll = () => {
-    const position = window.scrollY;
-    setScrollPosition(position);
-  };
+  const [scrollPosition, setScrollPosition] = useState(false);
 
   useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 50) {
+        setScrollPosition(true);
+      } else {
+        setScrollPosition(false);
+      }
+    };
+
     window.addEventListener("scroll", handleScroll);
 
     return () => {
@@ -19,7 +22,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav className={`navbar ${scrollPosition >= 50 ? "scrolled" : ""}`}>
+    <nav className={`navbar ${scrollPosition ? "scrolled" : ""}`}>
       <Link id="logo" to="home" smooth duration={500}>
         MIGUEL
       </Link>

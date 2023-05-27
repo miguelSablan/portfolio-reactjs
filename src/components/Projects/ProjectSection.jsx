@@ -1,5 +1,7 @@
 import "./ProjectSection.css";
 import { Link } from "react-scroll";
+import Portfolio from "../../assets/PortfolioExample.png";
+import AppliImg from "../../assets/DashboardExample.png";
 
 const ProjectSection = () => {
   return (
@@ -10,7 +12,7 @@ const ProjectSection = () => {
       <div className="projects-list">
         <div className="project">
           <div className="project-image">
-            <img src="https://camo.githubusercontent.com/172a7734bb205378a311ed6945e1f5c0b797c4260aaa2fa4d55aafafe5ebd233/68747470733a2f2f692e696d6775722e636f6d2f3243616b714f632e706e67253232253345" />
+            <img src={Portfolio} alt="Portfolio Preview Image" />
           </div>
 
           <div className="project-info">
@@ -29,7 +31,7 @@ const ProjectSection = () => {
         </div>
         <div className="project">
           <div className="project-image">
-            <img src="https://camo.githubusercontent.com/172a7734bb205378a311ed6945e1f5c0b797c4260aaa2fa4d55aafafe5ebd233/68747470733a2f2f692e696d6775722e636f6d2f3243616b714f632e706e67253232253345" />
+            <img src={AppliImg} alt="Appli Preview Image" />
           </div>
 
           <div className="project-info">

@@ -22,7 +22,7 @@ const ProjectSection = () => {
               first portfolio website was done with pure HTML, CSS, and
               JavaScript when I first started learning web development in early
               2022. Fast foward a year later, I wanted to redo my portfolio
-              using React.js
+              using React.js.
             </p>
             <a href="">
               <button>View Site</button>

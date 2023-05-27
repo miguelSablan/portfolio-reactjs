@@ -43,6 +43,6 @@
   opacity: 0;
   animation: fadeInUp 1s forwards, bounce 1s infinite;
   animation-delay: 1.6s;
-  position: relative;
-  top: 180px;
+  position: absolute;
+  bottom: 30px;
 }

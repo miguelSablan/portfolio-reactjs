@@ -1,5 +1,34 @@
 .contact-section {
-  height: 100vh;
+  height: auto;
   text-align: center;
   color: var(--color-title);
+  padding: 6rem 6rem;
+}
+
+.contact-section > h1 {
+  font-size: 36px;
+}
+
+.contact-form-container {
+  max-width: 40.75rem;
+  margin: 0 auto;
+  padding: 0.938rem;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-form input,
+textarea {
+  font-family: var(--font-poppins);
+  border-radius: 4px;
+  padding: 12px;
+  margin: 8px;
+  font-size: 16px;
+  width: 600px;
+  outline: none;
+  resize: none;
 }

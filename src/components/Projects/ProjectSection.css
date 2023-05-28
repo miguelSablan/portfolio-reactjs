@@ -43,7 +43,7 @@
   margin-bottom: 20px;
 }
 
-.project button {
+.button {
   background-image: linear-gradient(
     to right,
     #314755 0%,
@@ -62,7 +62,7 @@
   background-size: 200% auto;
 }
 
-.project button:hover {
+.button:hover {
   background-position: right center; /* change the direction of the change here */
 }
 

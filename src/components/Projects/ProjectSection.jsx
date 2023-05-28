@@ -25,7 +25,7 @@ const ProjectSection = () => {
               using React.js.
             </p>
             <a href="">
-              <button>View Site</button>
+              <button className="button">View Site</button>
             </a>
           </div>
         </div>
@@ -45,7 +45,7 @@ const ProjectSection = () => {
             </p>
 
             <a href="https://appli-today.netlify.app/" target="_blank">
-              <button>View Site</button>
+              <button className="button">View Site</button>
             </a>
           </div>
         </div>

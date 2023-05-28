@@ -1,6 +1,7 @@
 import "./Navbar.css";
 import { useState, useEffect } from "react";
 import { Link } from "react-scroll";
+import { GiHamburgerMenu } from "react-icons/gi";
 
 const Navbar = () => {
   const [scrollPosition, setScrollPosition] = useState(false);
@@ -23,10 +24,10 @@ const Navbar = () => {
 
   return (
     <nav className={`navbar ${scrollPosition ? "scrolled" : ""}`}>
-      <Link id="logo" to="home" smooth duration={500}>
+      <Link class="logo" to="home" smooth duration={500}>
         MIGUEL
       </Link>
-      <ul>
+      <ul className="nav-links">
         <li className="nav-link">
           <Link to="home" smooth spy={true} duration={500} activeClass="active">
             HOME
@@ -66,6 +67,9 @@ const Navbar = () => {
           </Link>
         </li>
       </ul>
+      {/*<div className="burger-menu">
+        <GiHamburgerMenu />
+      </div>*/}
     </nav>
   );
 };

@@ -21,7 +21,7 @@
   background: #152232;
 }
 
-#logo {
+.logo {
   font-size: 30px;
   text-decoration: none;
   font-weight: 700;
@@ -29,7 +29,7 @@
   cursor: pointer;
 }
 
-#logo:hover {
+.logo:hover {
   color: var(--color-primary);
 }
 
@@ -38,13 +38,13 @@
   cursor: pointer;
 }
 
-.navbar ul {
+.nav-links {
   display: flex;
   justify-content: space-between;
   width: 25rem;
 }
 
-.navbar ul a {
+.nav-links a {
   transition: all 0.3s ease;
 }
 
@@ -55,4 +55,10 @@
 .navbar ul li > .active {
   border-bottom: 2.5px solid white;
   padding-bottom: 3px;
+}
+
+.burger-menu {
+  display: none;
+  font-size: 2rem;
+  cursor: pointer;
 }

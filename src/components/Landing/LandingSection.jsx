@@ -8,9 +8,9 @@ import { Link } from "react-scroll";
 const LandingSection = () => {
   return (
     <section id="home" className="landing-section">
-      <h1>Hi! I'm Miguel Sablan.</h1>
+      <h1>Hi, I'm Miguel Sablan</h1>
 
-      <p>A Full-Stack Web Developer From Miami 🌴</p>
+      <p>A Software Engineer From Miami 🌴</p>
 
       <div className="icons-container">
         <a

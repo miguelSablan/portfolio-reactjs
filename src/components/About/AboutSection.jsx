@@ -1,17 +1,40 @@
 import "./AboutSection.css";
 import { FaGitAlt, FaReact } from "react-icons/fa";
-import { AiFillHtml5 } from "react-icons/ai";
+import { AiFillHtml5, AiOutlineDownload } from "react-icons/ai";
 import { DiCss3, DiMongodb } from "react-icons/di";
 import { SiJavascript, SiExpress } from "react-icons/si";
 import { IoLogoNodejs } from "react-icons/io";
+import "aos/dist/aos.css";
+import headshotImg from "../../assets/headshot.jpeg";
 
 const AboutSection = () => {
   return (
     <section id="about" className="about-section">
-      <h1>About Me</h1>
+      <h1 data-aos="fade-in" data-aos-offset="100">
+        ABOUT ME
+      </h1>
 
-      <h2>Skills</h2>
-      <div className="skill-summary">
+      <div className="about-container" data-aos="fade-in" data-aos-offset="100">
+        <div className="about-bio">
+          <p className="about-text">
+            I am 22 years old and recently graduated from Florida International
+            University with a Bachelor of Science in Computer Science. I am very
+            passionate about creating interesting applications and enjoy
+            learning the latest technologies. My hobbies include playing guitar,
+            collecting vinyl records, and reading manga.
+          </p>
+
+          <p className="about-text">Check out some of my latest projects.</p>
+        </div>
+
+        <img className="headshot" src={headshotImg} alt="headshot photo" />
+      </div>
+
+      {/*
+      <h2 data-aos="fade-in" data-aos-offset="100">
+        Skills
+      </h2>
+      <div className="skill-summary" data-aos="fade-in" data-aos-offset="100">
         <div className="skill-icon">
           <AiFillHtml5 size={120} color="#e44c26" />
         </div>
@@ -38,6 +61,7 @@ const AboutSection = () => {
           <IoLogoNodejs size={120} color="#83cd29" />
         </div>
       </div>
+  */}
     </section>
   );
 };

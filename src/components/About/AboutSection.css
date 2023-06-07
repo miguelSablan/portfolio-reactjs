@@ -1,12 +1,30 @@
 .about-section {
   height: auto;
-  text-align: center;
   color: var(--color-title);
-  padding: 6rem 6rem 0 6rem;
+  padding: 6rem 8rem;
 }
 
 .about-section > h1 {
-  font-size: 36px;
+  font-size: 4rem;
+}
+
+.about-container {
+  display: flex;
+  gap: 10%;
+  margin: 20px auto;
+}
+
+.about-bio {
+  font-size: 16px;
+}
+
+.about-text {
+  margin-bottom: 20px;
+}
+
+.headshot {
+  width: 350px;
+  border-radius: 15px;
 }
 
 .skill-summary {

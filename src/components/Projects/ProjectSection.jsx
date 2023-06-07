@@ -2,15 +2,21 @@ import "./ProjectSection.css";
 import { Link } from "react-scroll";
 import Portfolio from "../../assets/PortfolioExample.png";
 import AppliImg from "../../assets/DashboardExample.png";
+import AniMedia from "../../assets/AniMedia.png";
+import "aos/dist/aos.css";
 
 const ProjectSection = () => {
   return (
     <section id="projects" className="project-section">
-      <h1>Projects</h1>
-      <h2>Some of my work</h2>
+      <h1 data-aos="fade-in" data-aos-offset="100">
+        PROJECTS
+      </h1>
+      <h2 data-aos="fade-in" data-aos-offset="100">
+        Some of my work
+      </h2>
 
       <div className="projects-list">
-        <div className="project">
+        <div className="project" data-aos="fade-in" data-aos-offset="100">
           <div className="project-image">
             <img src={Portfolio} alt="Portfolio Preview Image" />
           </div>
@@ -29,7 +35,7 @@ const ProjectSection = () => {
             </a>
           </div>
         </div>
-        <div className="project">
+        <div className="project" data-aos="fade-in" data-aos-offset="100">
           <div className="project-image">
             <img src={AppliImg} alt="Appli Preview Image" />
           </div>
@@ -46,6 +52,25 @@ const ProjectSection = () => {
 
             <a href="https://appli-today.netlify.app/" target="_blank">
               <button className="button">View Site</button>
+            </a>
+          </div>
+        </div>
+
+        <div className="project" data-aos="fade-in" data-aos-offset="100">
+          <div className="project-image">
+            <img src={AniMedia} alt="AniMedia Preview Image" />
+          </div>
+
+          <div className="project-info">
+            <h1>AniMedia</h1>
+            <p>
+              A prototype social media application for anime fans to look up
+              details for any anime, get the latest news on anime, post media
+              content, and chat with other users.
+            </p>
+
+            <a href="https://github.com/miguelSablan/AniMedia" target="_blank">
+              <button className="button">View Repo</button>
             </a>
           </div>
         </div>

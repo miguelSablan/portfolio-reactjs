@@ -1,12 +1,21 @@
 import "./ContactSection.css";
+import "aos/dist/aos.css";
 
 const ContactSection = () => {
   return (
     <section id="contact" className="contact-section">
-      <h1>Contact</h1>
-      <h2>Let's network</h2>
+      <h1 data-aos="fade-in" data-aos-offset="100">
+        CONTACT
+      </h1>
+      <h2 data-aos="fade-in" data-aos-offset="100">
+        Let's network
+      </h2>
 
-      <div className="contact-form-container">
+      <div
+        className="contact-form-container"
+        data-aos="fade-in"
+        data-aos-offset="100"
+      >
         <form
           action="https://getform.io/f/06153dd2-f8e4-4fcb-96af-97b81456d2a0"
           method="POST"

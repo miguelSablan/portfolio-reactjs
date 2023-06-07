@@ -3,7 +3,6 @@ import { Link } from "react-scroll";
 import Portfolio from "../../assets/PortfolioExample.png";
 import AppliImg from "../../assets/DashboardExample.png";
 import AniMedia from "../../assets/AniMedia.png";
-import "aos/dist/aos.css";
 
 const ProjectSection = () => {
   return (

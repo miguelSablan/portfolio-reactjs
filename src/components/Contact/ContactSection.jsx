@@ -1,5 +1,4 @@
 import "./ContactSection.css";
-import "aos/dist/aos.css";
 
 const ContactSection = () => {
   return (

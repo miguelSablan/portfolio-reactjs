@@ -7,10 +7,13 @@ import ContactSection from "./components/Contact/ContactSection";
 import Footer from "./components/Footer/Footer";
 import { useEffect } from "react";
 import Aos from "aos";
+import "aos/dist/aos.css";
 
 const App = () => {
   useEffect(() => {
     Aos.init({ duration: 800 });
+
+    window.addEventListener('load', Aos.refresh)
   }, []);
 
   return (

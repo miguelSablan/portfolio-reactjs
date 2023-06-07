@@ -4,7 +4,6 @@ import { AiFillHtml5, AiOutlineDownload } from "react-icons/ai";
 import { DiCss3, DiMongodb } from "react-icons/di";
 import { SiJavascript, SiExpress } from "react-icons/si";
 import { IoLogoNodejs } from "react-icons/io";
-import "aos/dist/aos.css";
 import headshotImg from "../../assets/headshot.jpeg";
 
 const AboutSection = () => {

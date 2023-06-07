@@ -39,7 +39,7 @@ const LandingSection = () => {
       </div>
 
       <div className="arrow">
-        <Link to="projects" smooth duration={500} style={{ cursor: "pointer" }}>
+        <Link to="about" smooth duration={500} style={{ cursor: "pointer" }}>
           <FaArrowDown size={"22px"} />
         </Link>
       </div>

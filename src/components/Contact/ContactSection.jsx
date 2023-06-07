@@ -4,16 +4,16 @@ import "aos/dist/aos.css";
 const ContactSection = () => {
   return (
     <section id="contact" className="contact-section">
-      <h1 data-aos="fade-in" data-aos-offset="100">
+      <h1 data-aos="fade-up" data-aos-offset="100">
         CONTACT
       </h1>
-      <h2 data-aos="fade-in" data-aos-offset="100">
+      <h2 data-aos="fade-up" data-aos-offset="100">
         Let's network
       </h2>
 
       <div
         className="contact-form-container"
-        data-aos="fade-in"
+        data-aos="fade-up"
         data-aos-offset="100"
       >
         <form

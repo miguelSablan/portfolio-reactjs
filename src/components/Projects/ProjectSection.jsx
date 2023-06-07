@@ -8,15 +8,15 @@ import "aos/dist/aos.css";
 const ProjectSection = () => {
   return (
     <section id="projects" className="project-section">
-      <h1 data-aos="fade-in" data-aos-offset="100">
+      <h1 data-aos="fade-up" data-aos-offset="100">
         PROJECTS
       </h1>
-      <h2 data-aos="fade-in" data-aos-offset="100">
+      <h2 data-aos="fade-up" data-aos-offset="100">
         Some of my work
       </h2>
 
       <div className="projects-list">
-        <div className="project" data-aos="fade-in" data-aos-offset="100">
+        <div className="project" data-aos="fade-up" data-aos-offset="100">
           <div className="project-image">
             <img src={Portfolio} alt="Portfolio Preview Image" />
           </div>
@@ -35,7 +35,7 @@ const ProjectSection = () => {
             </a>
           </div>
         </div>
-        <div className="project" data-aos="fade-in" data-aos-offset="100">
+        <div className="project" data-aos="fade-up" data-aos-offset="100">
           <div className="project-image">
             <img src={AppliImg} alt="Appli Preview Image" />
           </div>
@@ -56,7 +56,7 @@ const ProjectSection = () => {
           </div>
         </div>
 
-        <div className="project" data-aos="fade-in" data-aos-offset="100">
+        <div className="project" data-aos="fade-up" data-aos-offset="100">
           <div className="project-image">
             <img src={AniMedia} alt="AniMedia Preview Image" />
           </div>

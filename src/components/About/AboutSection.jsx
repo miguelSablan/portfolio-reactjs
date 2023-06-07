@@ -10,11 +10,11 @@ import headshotImg from "../../assets/headshot.jpeg";
 const AboutSection = () => {
   return (
     <section id="about" className="about-section">
-      <h1 data-aos="fade-in" data-aos-offset="100">
+      <h1 data-aos="fade-up" data-aos-offset="100">
         ABOUT ME
       </h1>
 
-      <div className="about-container" data-aos="fade-in" data-aos-offset="100">
+      <div className="about-container" data-aos="fade-up" data-aos-offset="100">
         <div className="about-bio">
           <p className="about-text">
             I am 22 years old and recently graduated from Florida International
@@ -31,10 +31,10 @@ const AboutSection = () => {
       </div>
 
       {/*
-      <h2 data-aos="fade-in" data-aos-offset="100">
+      <h2 data-aos="fade-up" data-aos-offset="100">
         Skills
       </h2>
-      <div className="skill-summary" data-aos="fade-in" data-aos-offset="100">
+      <div className="skill-summary" data-aos="fade-up" data-aos-offset="100">
         <div className="skill-icon">
           <AiFillHtml5 size={120} color="#e44c26" />
         </div>

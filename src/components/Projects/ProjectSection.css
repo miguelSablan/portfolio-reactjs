@@ -70,3 +70,38 @@
   display: flex;
   justify-content: space-around;
 }
+
+/* For Phones */
+@media (max-width: 500px) {
+  .project-section {
+    margin: 3rem 0;
+    padding: 0 !important;
+    text-align: center;
+  }
+
+  .project-section > h1 {
+    font-size: 3rem !important;
+  }
+
+  .projects-list {
+    flex-direction: column !important;
+  }
+
+  .project {
+    padding: 0;
+    flex-direction: column !important;
+  }
+
+  .project-image img {
+    height: 210px;
+  }
+
+  .project h1 {
+    font-size: 1.7rem !important;
+  }
+
+  .project p {
+    font-size: 0.8rem !important;
+    padding: 1rem !important;
+  }
+}

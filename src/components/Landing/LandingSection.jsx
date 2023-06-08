@@ -18,7 +18,7 @@ const LandingSection = () => {
           target="_blank"
           className="icon-container"
         >
-          <FaLinkedinIn size="50px" />
+          <FaLinkedinIn size="50px" className="icon" />
         </a>
 
         <a
@@ -26,7 +26,7 @@ const LandingSection = () => {
           target="_blank"
           className="icon-container"
         >
-          <AiFillGithub size="50px" />
+          <AiFillGithub size="50px" className="icon" />
         </a>
 
         <a
@@ -34,13 +34,13 @@ const LandingSection = () => {
           target="_blank"
           className="icon-container"
         >
-          <IoMdMail size="50px" />
+          <IoMdMail size="50px" className="icon" />
         </a>
       </div>
 
-      <div className="arrow">
+      <div className="arrow-container">
         <Link to="about" smooth duration={500} style={{ cursor: "pointer" }}>
-          <FaArrowDown size={"22px"} />
+          <FaArrowDown size={"22px"} className="arrow-icon"/>
         </Link>
       </div>
     </section>

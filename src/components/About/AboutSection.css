@@ -37,6 +37,40 @@
 
 .skill-icon {
   margin: 40px 90px;
-  width: 120px;
+  width: 80px;
   min-width: 60px;
+}
+
+/* For Phones */
+@media only screen and (max-width: 550px) {
+  .about-section {
+    padding: 0 !important;
+    text-align: center;
+    margin-bottom: 2rem !important;
+  }
+
+  .about-section > h1 {
+    font-size: 3rem;
+  }
+
+  .about-container {
+    flex-direction: column-reverse !important;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .about-text {
+    font-size: small;
+    padding: 10px;
+  }
+
+  .headshot {
+    width: 50% !important;
+    margin-bottom: 3rem;
+  }
+
+  .skill-summary {
+    flex-wrap: nowrap !important;
+    flex-direction: column;
+  }
 }

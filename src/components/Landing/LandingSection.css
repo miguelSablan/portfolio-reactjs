@@ -41,10 +41,30 @@
   color: var(--color-primary);
 }
 
-.arrow {
+.arrow-container {
   opacity: 0;
   animation: fadeInUp 1s forwards, bounce 1s infinite;
   animation-delay: 1.6s;
   position: absolute;
   bottom: 30px;
+}
+
+/* For Phones */
+@media only screen and (max-width: 550px) {
+  .landing-section > h1 {
+    font-size: 2.3rem !important;
+  }
+
+  .landing-section p {
+    font-size: 1.3rem !important;
+  }
+
+  .icon {
+    height: 35px;
+    width: 35px;
+  }
+
+  .arrow-icon {
+    display: none;
+  }
 }

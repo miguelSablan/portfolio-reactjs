@@ -20,7 +20,7 @@ const AboutSection = () => {
             University with a Bachelor of Science in Computer Science. I am very
             passionate about creating interesting applications and enjoy
             learning the latest technologies. My hobbies include playing guitar,
-            collecting vinyl records, and reading manga.
+            playing video games, collecting records, and reading manga.
           </p>
 
           <p className="about-text">Check out some of my latest projects.</p>

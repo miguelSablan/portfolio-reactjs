@@ -5,6 +5,7 @@ import { DiCss3, DiMongodb } from "react-icons/di";
 import { SiJavascript, SiExpress } from "react-icons/si";
 import { IoLogoNodejs } from "react-icons/io";
 import headshotImg from "../../assets/headshot.jpeg";
+import resumePDF from "../../assets/Miguel_Sablan_Resume.pdf";
 
 const AboutSection = () => {
   return (
@@ -24,6 +25,10 @@ const AboutSection = () => {
           </p>
 
           <p className="about-text">Check out some of my latest projects.</p>
+
+          <a className="resume-button" href={resumePDF} target="_blank">
+            <button className="button">Resume</button>
+          </a>
         </div>
 
         <img className="headshot" src={headshotImg} alt="headshot photo" />

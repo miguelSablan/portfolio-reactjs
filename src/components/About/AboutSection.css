@@ -30,15 +30,34 @@
 .skill-summary {
   display: flex;
   flex-wrap: wrap;
-  width: 100%;
+  flex-direction: row;
   justify-content: center;
-  align-items: center;
+  padding: 6rem;
 }
 
-.skill-icon {
-  margin: 40px 90px;
-  width: 80px;
-  min-width: 60px;
+.skill {
+  display: flex;
+  flex-direction: column;
+  transition: all 0.4s ease-in-out;
+  margin: 0.5rem;
+}
+
+.skill-title {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.skill-img {
+  width: 200px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 1.2rem;
+  transition: all 0.4s ease-in-out;
+}
+
+.skill-img:hover {
+  transform: translateY(-8px);
 }
 
 /* For Phones */
@@ -67,10 +86,5 @@
   .headshot {
     width: 50% !important;
     margin-bottom: 3rem;
-  }
-
-  .skill-summary {
-    flex-wrap: nowrap !important;
-    flex-direction: column;
   }
 }

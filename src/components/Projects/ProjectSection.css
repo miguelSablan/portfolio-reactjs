@@ -17,37 +17,48 @@
 
 .project {
   display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1060px;
+  margin: 48px 0;
+  text-align: center;
+  gap: 7%;
+  /*
   justify-content: space-around;
   align-items: center;
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
   padding: 1rem;
   width: 100%;
-  gap: 7%;
-  text-align: center;
+  */
 }
 
 .project-image {
   display: flex;
+  flex-direction: row;
+  align-items: center;
   justify-content: center;
   width: 1060px;
 }
 
 .project-image img {
   height: 280px;
+  padding: 3px;
   border-radius: 16px;
   box-shadow: 0 3px 10px rgba(220, 220, 220, 0.5);
 }
 
-.project h1 {
+.project-info h1 {
   margin-top: 20px;
   margin-bottom: 20px;
   font-size: 2rem;
 }
 
-.project p {
+.project-info p {
   margin-top: 20px;
   margin-bottom: 20px;
+  text-align: justify;
 }
 
 .button {

@@ -6,6 +6,11 @@
 
 .about-section > h1 {
   font-size: 4rem;
+  text-align: center; 
+}
+
+.about-section span {
+  color: var(--color-primary);
 }
 
 .about-container {
@@ -20,6 +25,7 @@
 
 .about-text {
   margin-bottom: 20px;
+  text-align: justify;
 }
 
 .headshot {

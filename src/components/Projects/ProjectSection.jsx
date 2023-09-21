@@ -8,7 +8,7 @@ const ProjectSection = () => {
   return (
     <section id="projects" className="project-section">
       <h1 data-aos="fade-up" data-aos-offset="100">
-        PROJECTS
+        MY <span>PROJECTS</span>
       </h1>
       <h2 data-aos="fade-up" data-aos-offset="100">
         Some of my work

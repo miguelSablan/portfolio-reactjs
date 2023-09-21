@@ -9,6 +9,10 @@
   font-size: 4rem;
 }
 
+.contact-section span {
+  color: var(--color-primary);
+}
+
 .contact-form-container {
   max-width: 40.75rem;
   margin: 0 auto;

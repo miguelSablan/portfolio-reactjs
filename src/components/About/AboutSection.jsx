@@ -11,7 +11,7 @@ const AboutSection = () => {
   return (
     <section id="about" className="about-section">
       <h1 data-aos="fade-up" data-aos-offset="100">
-        ABOUT ME
+        ABOUT <span>ME</span>
       </h1>
 
       <div className="about-container" data-aos="fade-up" data-aos-offset="100">

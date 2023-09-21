@@ -2,10 +2,15 @@
   height: auto;
   color: var(--color-title);
   padding: 6rem 8rem;
+  text-align: center;
 }
 
 .project-section > h1 {
   font-size: 4rem;
+}
+
+.project-section span {
+  color: var(--color-primary);
 }
 
 .projects-list {
@@ -26,7 +31,6 @@
   gap: 7%;
   /*
   justify-content: space-around;
-  align-items: center;
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
   padding: 1rem;

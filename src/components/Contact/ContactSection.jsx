@@ -4,7 +4,7 @@ const ContactSection = () => {
   return (
     <section id="contact" className="contact-section">
       <h1 data-aos="fade-up" data-aos-offset="100">
-        CONTACT
+        CONTACT <span>ME</span>
       </h1>
       <h2 data-aos="fade-up" data-aos-offset="100">
         Let's network

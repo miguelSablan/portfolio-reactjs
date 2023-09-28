@@ -1,3 +1,4 @@
 # My Personal Portfolio
+[![Netlify Status](https://api.netlify.com/api/v1/badges/9b631f51-e92a-4773-865a-5640ec5f5a78/deploy-status)](https://app.netlify.com/sites/miguelsablan/deploys)
 
-This is a revamp of my [old portfolio](https://miguelsablan.github.io/My-Portfolio-Vanilla/) that was made with pure HTML/CSS/JavaScript. 
+My portfolio website to briefly showcase my projects.

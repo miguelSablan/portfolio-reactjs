@@ -17,6 +17,7 @@ const LandingSection = () => {
           href="https://www.linkedin.com/in/miguel-sablan"
           target="_blank"
           className="icon-container"
+          rel="noreferrer"
         >
           <FaLinkedinIn size="50px" className="icon" />
         </a>
@@ -25,6 +26,7 @@ const LandingSection = () => {
           href="https://www.github.com/miguelSablan"
           target="_blank"
           className="icon-container"
+          rel="noreferrer"
         >
           <AiFillGithub size="50px" className="icon" />
         </a>
@@ -33,6 +35,7 @@ const LandingSection = () => {
           href="mailto:msabl005@fiu.edu"
           target="_blank"
           className="icon-container"
+          rel="noreferrer"
         >
           <IoMdMail size="50px" className="icon" />
         </a>
@@ -40,7 +43,7 @@ const LandingSection = () => {
 
       <div className="arrow-container">
         <Link to="about" smooth duration={500} style={{ cursor: "pointer" }}>
-          <FaArrowDown size={"22px"} className="arrow-icon"/>
+          <FaArrowDown size={"22px"} className="arrow-icon" />
         </Link>
       </div>
     </section>

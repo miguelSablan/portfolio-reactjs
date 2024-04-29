@@ -6,7 +6,7 @@
 
 .about-section > h1 {
   font-size: 4rem;
-  text-align: center; 
+  text-align: center;
 }
 
 .about-section span {
@@ -93,5 +93,17 @@
   .headshot {
     width: 50% !important;
     margin-bottom: 3rem;
+  }
+
+  .about-section {
+    height: 1200px;
+  }
+
+  .skill-summary {
+    padding: 0;
+  }
+
+  .skill-img {
+    width: 100px;
   }
 }

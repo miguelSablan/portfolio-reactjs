@@ -20,7 +20,7 @@
 }
 
 .about-bio {
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .about-text {
@@ -87,6 +87,7 @@
   .about-text {
     font-size: small;
     padding: 10px;
+    text-align: center;
   }
 
   .headshot {

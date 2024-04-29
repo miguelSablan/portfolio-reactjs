@@ -129,5 +129,6 @@
   .project p {
     font-size: 0.8rem !important;
     padding: 1rem !important;
+    text-align: center;
   }
 }

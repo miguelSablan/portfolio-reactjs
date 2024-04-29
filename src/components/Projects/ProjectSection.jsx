@@ -2,6 +2,7 @@ import "./ProjectSection.css";
 import Portfolio from "../../assets/PortfolioExample.png";
 import Appli from "../../assets/DashboardExample.png";
 import AniMedia from "../../assets/AniMedia.png";
+import Weezle from "../../assets/weezle.png";
 import { Project } from "./Project";
 
 const ProjectSection = () => {
@@ -15,6 +16,14 @@ const ProjectSection = () => {
       </h2>
 
       <div className="projects-list">
+        <Project
+          imageSrc={Weezle}
+          title="Weezle"
+          description="For the 30 year anniversary of one of my favorite albums, I made a
+          Wordle clone themed around Weezer's Blue album. Players guess song lyrics from the album in infinite rounds."
+          link="https://weezle.netlify.app/"
+          buttonText="View Site"
+        />
         <Project
           imageSrc={Portfolio}
           title="Portfolio"

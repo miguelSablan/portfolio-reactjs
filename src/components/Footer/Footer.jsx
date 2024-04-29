@@ -16,6 +16,7 @@ const Footer = () => {
           href="https://www.linkedin.com/in/miguel-sablan"
           target="_blank"
           className="icon-container"
+          rel="noreferrer"
         >
           <FaLinkedinIn size="30px" />
         </a>
@@ -24,6 +25,7 @@ const Footer = () => {
           href="https://www.github.com/miguelSablan"
           target="_blank"
           className="icon-container"
+          rel="noreferrer"
         >
           <AiFillGithub size="30px" />
         </a>
@@ -32,12 +34,13 @@ const Footer = () => {
           href="mailto:msabl005@fiu.edu"
           target="_blank"
           className="icon-container"
+          rel="noreferrer"
         >
           <IoMdMail size="30px" />
         </a>
       </div>
 
-      <p>Miguel Sablan &copy; 2023</p>
+      <p>Miguel Sablan &copy; 2024</p>
     </footer>
   );
 };

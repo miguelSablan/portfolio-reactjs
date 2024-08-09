@@ -29,6 +29,39 @@
   margin: 48px 0;
   text-align: center;
   gap: 7%;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: transparent;
+  transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  text-decoration: none;
+  color: inherit;
+}
+
+.project:hover {
+  background-color: #20f7da10;
+}
+
+.project-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.project-title h1,
+.icon-link {
+  transition: color 0.3s ease-in-out;
+  color: var(--color-title);
+}
+
+.project:hover .project-title h1,
+.project:hover .icon-link {
+  color: var(--color-primary);
+}
+
+.icon-link {
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
 }
 
 .project-image {
@@ -44,12 +77,6 @@
   padding: 3px;
   border-radius: 16px;
   box-shadow: 0 3px 10px rgba(220, 220, 220, 0.5);
-}
-
-.project-info h1 {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  font-size: 2rem;
 }
 
 .project-info p {
@@ -75,34 +102,6 @@
   line-height: 1.25rem;
 }
 
-.button {
-  background-image: linear-gradient(
-    to right,
-    #314755 0%,
-    var(--color-primary) 51%,
-    #314755 100%
-  );
-  border-radius: 10px;
-  width: 200px;
-  color: var(--color-title);
-  font-size: 17px;
-  transition: all 0.5s;
-  cursor: pointer;
-  font-family: var(--font-poppins);
-  margin: 10px;
-  padding: 15px 45px;
-  background-size: 200% auto;
-}
-
-.button:hover {
-  background-position: right center; /* change the direction of the change here */
-}
-
-.project-tools {
-  display: flex;
-  justify-content: space-around;
-}
-
 /* For Phones */
 @media (max-width: 500px) {
   .project-section {
@@ -124,16 +123,17 @@
     flex-direction: column !important;
   }
 
+  .project-title {
+    justify-content: center;
+    margin-top: 20px;
+  }
+
   .project-image {
     width: auto;
   }
 
   .project-image img {
     height: 210px;
-  }
-
-  .project h1 {
-    font-size: 1.7rem !important;
   }
 
   .project p {

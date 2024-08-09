@@ -32,7 +32,7 @@ const ContactSection = () => {
             required
           ></textarea>
 
-          <button type="submit" className="button">
+          <button type="submit" className="send-button">
             Send
           </button>
         </form>

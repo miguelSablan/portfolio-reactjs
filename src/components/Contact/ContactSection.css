@@ -28,13 +28,36 @@
 .contact-form input,
 textarea {
   font-family: var(--font-poppins);
-  border-radius: 4px;
-  padding: 12px;
+  border-radius: 20px;
+  padding: 0.8rem 1.1rem;
   margin: 8px;
   font-size: 16px;
-  width: 600px;
+  width: 100%;
   outline: none;
   resize: none;
+  border: none;
+  background-color: #2a2e35;
+  color: white;
+}
+
+.send-button {
+  border-radius: 20px;
+  width: 100%;
+  color: var(--color-title);
+  transition: all 0.5s;
+  cursor: pointer;
+  font-family: var(--font-poppins);
+  margin: 10px;
+  padding: 10px 20px;
+  border: 1px solid #1cb4ff;
+  background-color: transparent;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.send-button:hover {
+  background-color: #1cb4ff;
 }
 
 /* For Phones */

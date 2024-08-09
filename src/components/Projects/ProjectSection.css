@@ -124,6 +124,7 @@
   }
 
   .project:hover {
+    background-color: transparent;
     box-shadow: none;
   }
 

@@ -29,13 +29,6 @@
   margin: 48px 0;
   text-align: center;
   gap: 7%;
-  /*
-  justify-content: space-around;
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
-  padding: 1rem;
-  width: 100%;
-  */
 }
 
 .project-image {
@@ -63,6 +56,23 @@
   margin-top: 20px;
   margin-bottom: 20px;
   text-align: justify;
+}
+
+.tech-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.tech-item {
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  background-color: rgba(45, 212, 191, 0.1);
+  padding: 4px 12px;
+  font-size: 0.75rem;
+  line-height: 1.25rem;
 }
 
 .button {
@@ -130,5 +140,14 @@
     font-size: 0.8rem !important;
     padding: 1rem !important;
     text-align: center;
+  }
+
+  .tech-stack {
+    justify-content: center;
+  }
+
+  .tech-item {
+    padding: 2px 8px;
+    line-height: 1rem;
   }
 }

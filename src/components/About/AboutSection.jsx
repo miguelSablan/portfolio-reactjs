@@ -1,5 +1,5 @@
 import "./AboutSection.css";
-import { FaGitAlt, FaPython, FaReact } from "react-icons/fa";
+import { FaGitAlt, FaPython, FaReact, FaDownload } from "react-icons/fa";
 import { AiFillHtml5 } from "react-icons/ai";
 import { DiCss3, DiJava, DiMongodb } from "react-icons/di";
 import {
@@ -23,7 +23,7 @@ const skillsData = [
   { title: "TypeScript", Icon: SiTypescript, color: "#3178C6" },
   { title: "Python", Icon: FaPython, color: "#f0db4f" },
   { title: "Swift", Icon: SiSwift, color: "#F1502F" },
-  { title: "SQL", Icon: SiPostgresql, color: "#0064a5" },
+  { title: "PostgreSQL", Icon: SiPostgresql, color: "#0064a5" },
 
   { title: "React", Icon: FaReact, color: "#61dafb" },
   { title: "Next", Icon: SiNextdotjs, color: "#white" },
@@ -54,8 +54,10 @@ const AboutSection = () => {
 
           <p className="about-text">Check out some of my latest projects.</p>
 
-          <a className="resume-button" href={resumePDF} target="_blank">
-            <button className="button">Resume</button>
+          <a href={resumePDF} target="_blank">
+            <button className="resume-button">
+              Download Resume <FaDownload />
+            </button>
           </a>
         </div>
 

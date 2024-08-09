@@ -64,6 +64,10 @@ const AboutSection = () => {
         <img className="headshot" src={headshotImg} alt="headshot photo" />
       </div>
 
+      <h2 data-aos="fade-up" data-aos-offset="100" className="skills-title">
+        My Skills
+      </h2>
+
       <div className="skill-summary" data-aos="fade-up" data-aos-offset="100">
         {skillsData.map((skill, index) => (
           <div key={index} className="skill">

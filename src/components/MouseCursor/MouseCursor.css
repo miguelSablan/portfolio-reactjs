@@ -1,0 +1,9 @@
+.mousecursor-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  box-shadow: 0px 0px 500px 150px #20f7da2f;
+  pointer-events: none; /* Ensures it doesn’t block interactions */
+  mix-blend-mode: screen; /* Optional: helps blend with background */
+  z-index: 9999; /* Ensures it's above other content */
+}

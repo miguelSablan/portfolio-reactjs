@@ -1,7 +1,7 @@
 import "./AboutSection.css";
 import { FaGitAlt, FaPython, FaReact, FaDownload } from "react-icons/fa";
 import { AiFillHtml5 } from "react-icons/ai";
-import { DiCss3, DiJava, DiMongodb } from "react-icons/di";
+import { DiCss3, DiJava } from "react-icons/di";
 import {
   SiJavascript,
   SiExpress,
@@ -26,13 +26,12 @@ const skillsData = [
   { title: "PostgreSQL", Icon: SiPostgresql, color: "#0064a5" },
 
   { title: "React", Icon: FaReact, color: "#61dafb" },
-  { title: "Next", Icon: SiNextdotjs, color: "#white" },
+  { title: "Next", Icon: SiNextdotjs, color: "white" },
   { title: "Express", Icon: SiExpress, color: "white" },
   { title: "Node", Icon: IoLogoNodejs, color: "#83cd29" },
-  { title: "TailwindCSS", Icon: SiTailwindcss, color: "#83cd29" },
+  { title: "TailwindCSS", Icon: SiTailwindcss, color: "#06b6d4" },
 
   { title: "Git", Icon: FaGitAlt, color: "#F1502F" },
-  { title: "MongoDB", Icon: DiMongodb, color: "#4db33d" },
 ];
 
 const AboutSection = () => {

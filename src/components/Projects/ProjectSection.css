@@ -123,6 +123,10 @@
     flex-direction: column !important;
   }
 
+  .project:hover {
+    box-shadow: none;
+  }
+
   .project-title {
     justify-content: center;
     margin-top: 20px;

@@ -31,7 +31,7 @@ const Footer = () => {
         </a>
 
         <a
-          href="mailto:msabl005@fiu.edu"
+          href="mailto:miguelsablan1@outlook.com"
           target="_blank"
           className="icon-container"
           rel="noreferrer"

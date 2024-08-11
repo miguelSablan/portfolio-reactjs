@@ -14,6 +14,10 @@
   animation-delay: 0.3s;
 }
 
+.landing-section span {
+  color: var(--color-primary);
+}
+
 .landing-section > p {
   font-size: 30px;
   opacity: 0;

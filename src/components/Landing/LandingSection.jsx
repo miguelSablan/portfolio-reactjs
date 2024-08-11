@@ -8,7 +8,9 @@ import { Link } from "react-scroll";
 const LandingSection = () => {
   return (
     <section id="home" className="landing-section">
-      <h1>Hi, I'm Miguel Sablan</h1>
+      <h1>
+        Hi, I'm<span> Miguel Sablan </span>
+      </h1>
 
       <p>A Software Engineer From Miami 🌴</p>
 
@@ -32,7 +34,7 @@ const LandingSection = () => {
         </a>
 
         <a
-          href="mailto:msabl005@fiu.edu"
+          href="mailto:miguelsablan1@outlook.com"
           target="_blank"
           className="icon-container"
           rel="noreferrer"

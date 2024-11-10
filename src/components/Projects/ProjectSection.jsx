@@ -1,10 +1,27 @@
 import "./ProjectSection.css";
+import CodeNook from "../../assets/CodeNook.png";
 import Portfolio from "../../assets/PortfolioExample.png";
 import Appli from "../../assets/DashboardExample.png";
+import Recyclepedia from "../../assets/Recyclepedia.gif";
 import AniMedia from "../../assets/AniMedia.png";
 import { Project } from "./Project";
 
 const projects = [
+  {
+    imageSrc: CodeNook,
+    title: "CodeNook",
+    description:
+      "A full stack platform designed to connect developers for project collaboration, enabling them to find and join projects that match their skills and interests.",
+    techStack: [
+      "Next",
+      "TailwindCSS",
+      "TypeScript",
+      "Prisma",
+      "Supabase",
+      "Vercel",
+    ],
+    link: "https://codenook.vercel.app/",
+  },
   {
     imageSrc: Portfolio,
     title: "Portfolio",
@@ -20,6 +37,14 @@ const projects = [
       "Over a span of 9 weeks in the INIT Build program, our team of 6 people developed a full-stack web application using the MERN Stack to help Computer Science students track and manage their internship/job applications. It also provides resources in preparing for behavioral and technical interviews.",
     techStack: ["React", "Express", "MongoDB", "Netlify"],
     link: "https://appli-today.netlify.app/",
+  },
+  {
+    imageSrc: Recyclepedia,
+    title: "Recyclepedia",
+    description:
+      "An iOS app I co-developed with two other students for the non-profit organization Dream in Green. Recyclepedia helps users in South Florida locate nearby recycling centers and learn about recyclable materials.",
+    techStack: ["Swift", "SwiftUI", "Firebase"],
+    link: "https://github.com/capaldo/Recyclepedia",
   },
   {
     imageSrc: AniMedia,

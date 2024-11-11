@@ -1,7 +1,7 @@
 .project-section {
   height: auto;
   color: var(--color-title);
-  padding: 6rem 8rem;
+  padding: 6rem;
   text-align: center;
 }
 
@@ -21,10 +21,9 @@
 }
 
 .project {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
   max-width: 1060px;
   margin: 48px 0;
   text-align: center;
@@ -58,18 +57,10 @@
   color: var(--color-primary);
 }
 
-.icon-link {
-  font-size: 1.2rem;
-  display: flex;
-  align-items: center;
-}
-
 .project-image {
   display: flex;
-  flex-direction: row;
   align-items: center;
   justify-content: center;
-  width: 1060px;
 }
 
 .project-image img {
@@ -79,9 +70,13 @@
   box-shadow: 0 3px 10px rgba(220, 220, 220, 0.5);
 }
 
+.project-info {
+  display: flex;
+  flex-direction: column;
+}
+
 .project-info p {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin: 20px 0;
   text-align: justify;
 }
 
@@ -104,28 +99,17 @@
 
 /* For Phones */
 @media (max-width: 500px) {
-  .project-section {
-    margin: 3rem 0;
-    padding: 0 !important;
-    text-align: center;
-  }
-
-  .project-section > h1 {
-    font-size: 3rem !important;
-  }
-
-  .projects-list {
-    flex-direction: column !important;
-  }
-
   .project {
-    padding: 0;
-    flex-direction: column !important;
+    grid-template-columns: 1fr;
+    padding: 20px 0;
   }
 
-  .project:hover {
-    background-color: transparent;
-    box-shadow: none;
+  .project-image img {
+    height: 210px;
+  }
+
+  .project-info {
+    text-align: center;
   }
 
   .project-title {
@@ -133,18 +117,9 @@
     margin-top: 20px;
   }
 
-  .project-image {
-    width: auto;
-  }
-
-  .project-image img {
-    height: 210px;
-  }
-
-  .project p {
-    font-size: 0.8rem !important;
-    padding: 1rem !important;
-    text-align: center;
+  .project-info p {
+    font-size: 0.8rem;
+    padding: 1rem;
   }
 
   .tech-stack {

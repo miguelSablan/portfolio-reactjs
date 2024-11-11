@@ -100,9 +100,28 @@
 
 /* For Phones */
 @media (max-width: 500px) {
+  .project-section {
+    margin: 3rem 0;
+    padding: 0 !important;
+    text-align: center;
+  }
+
+  .project-section > h1 {
+    font-size: 3rem !important;
+  }
+
+  .projects-list {
+    grid-template-columns: 1fr;
+  }
+
   .project {
     grid-template-columns: 1fr;
     padding: 20px 0;
+  }
+
+  .project:hover {
+    background-color: transparent;
+    box-shadow: none;
   }
 
   .project-image img {
@@ -121,6 +140,8 @@
   .project-info p {
     font-size: 0.8rem;
     padding: 1rem;
+    margin: 0;
+    text-align: center;
   }
 
   .tech-stack {
@@ -135,6 +156,16 @@
 
 /* For phones */
 @media (max-width: 500px) {
+  .project-section {
+    margin: 3rem 0;
+    padding: 0 !important;
+    text-align: center;
+  }
+
+  .project-section > h1 {
+    font-size: 3rem !important;
+  }
+
   .projects-list {
     grid-template-columns: 1fr;
   }
@@ -142,6 +173,15 @@
   .project {
     grid-template-columns: 1fr;
     padding: 20px 0;
+  }
+
+  .project:hover {
+    background-color: transparent;
+    box-shadow: none;
+  }
+
+  .project-image img {
+    height: 210px;
   }
 
   .project-info {
@@ -156,6 +196,8 @@
   .project-info p {
     font-size: 0.8rem;
     padding: 1rem;
+    margin: 0;
+    text-align: center;
   }
 
   .tech-stack {

@@ -14,11 +14,15 @@
 }
 
 .projects-list {
-  display: grid;
+  /* display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
   justify-items: center;
-  margin-top: 3rem;
+  margin-top: 3rem; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .project {

@@ -19,6 +19,17 @@ const Navbar = () => {
 
   const toggleMenu = () => setMenuOpen((prev) => !prev);
 
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth > 768) {
+        setMenuOpen(false); // Closes mobile menu on desktop view
+      }
+    };
+
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
   return (
     <nav className={`navbar ${isScrolled ? "scrolled" : ""}`}>
       <Link className="logo" to="home" smooth duration={500}>

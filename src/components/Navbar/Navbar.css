@@ -38,6 +38,7 @@
   cursor: pointer;
 }
 
+/* Desktop nav links */
 .nav-links {
   display: flex;
   justify-content: space-between;
@@ -48,18 +49,53 @@
   transition: all 0.3s ease;
 }
 
-.navbar ul a:hover {
+.nav-links a:hover {
   color: var(--color-primary);
 }
 
-.navbar ul li > .active {
+.active {
   border-bottom: 2.5px solid white;
   padding-bottom: 3px;
 }
 
+/* Mobile nav links */
+.mobile-nav-links {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  padding: 1rem 0;
+  z-index: 1;
+  background: #152232;
+  filter: drop-shadow(0 4px 5px #00000060);
+}
+
+/* Show mobile nav-links when menu is open */
+.mobile-nav-links.open {
+  display: flex;
+}
+
+/* Burger menu icon for mobile */
 .burger-menu {
   display: none;
   font-size: 2rem;
   cursor: pointer;
   margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+
+  .nav-link {
+    padding: 0.5rem 1rem;
+    text-align: center;
+  }
+
+  .burger-menu {
+    display: block; /* Display burger menu on mobile */
+  }
 }

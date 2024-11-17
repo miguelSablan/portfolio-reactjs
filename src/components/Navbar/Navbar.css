@@ -69,7 +69,6 @@
   padding: 1rem 0;
   z-index: 1;
   background: #152232;
-  filter: drop-shadow(0 4px 5px #00000060);
 }
 
 /* Show mobile nav-links when menu is open */

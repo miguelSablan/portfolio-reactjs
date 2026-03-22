@@ -46,6 +46,9 @@ const projects = [
     techStack: ["Swift", "SwiftUI", "Firebase"],
     link: "https://github.com/capaldo/Recyclepedia",
   },
+];
+
+/*
   {
     imageSrc: AniMedia,
     title: "AniMedia",
@@ -54,7 +57,7 @@ const projects = [
     techStack: ["Swift", "Firebase", "Jikan API"],
     link: "https://github.com/miguelSablan/AniMedia",
   },
-];
+*/
 
 const ProjectSection = () => {
   return (
